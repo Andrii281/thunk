@@ -1,0 +1,36 @@
+
+.addUserForm{
+    margin: 20px auto 0px auto;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid blueviolet;
+    width: 450px;
+}
+
+.inputForm{
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 10px auto 10px auto;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    height: 40px;
+}
+
+.userPhoto{
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 50%;
+    margin: 10px auto 30px auto;
+}
+
+.userPhoto img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.createUsetBtn{
+    border: 1px solid black;
+    padding: 10px;
+}

@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .post{
+    width: 1100px;
+    margin: 20px auto;
+    padding: 20px 20px 20px 20px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px black;
+  }
+  
+.info{
+    display: flex;
+  }
+  
+.postBody{
+    display: flex;
+  }
+  
+.userPhoto{
+      height: 70px;
+      width: 70px;
+      overflow: hidden;
+      box-shadow: 1px 1px 10px black;
+      border-radius: 50%;
+      margin: 0px 10px 0px 0px;
+  }
+  
+  .userPhoto img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+.name{
+    font-weight: bolder;
+    margin: 0px 10px 2px 0px;
+    
+  }
+  
+.date{
+    color: #b8c3c7;
+    margin: 0px 10px 0px 0px;
+  }
+  
+.message{
+    text-align:start ;
+    margin: 0px 10px 10px 0px;
+  }
+  
+  .postPhoto{
+    overflow: hidden;
+    border-radius: 20px;
+    border-top: 50%;
+    width: 900px;
+    height: 450px;
+    margin-bottom: 10px;
+  }
+
+  .postPhoto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .postPhoto{
+    overflow: hidden;
+    border-radius: 20px;
+    width: 900px;
+    height: 450px;
+    margin-bottom: 10px;
+  }
+
+  .postPhoto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .interactionBlock{
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  .interactionBlock span{
+    margin: auto 70px auto 5px;
+    font-size: 16px;
+  }
+
+  .interactionsIcon{
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .interactionsIcon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .inputMessage {
+    margin: 10px 20px 10px 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 400px;
+    height: 30px;
+  }
+
+.CreatePostBtn {
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.name select {
+  font-size: 18px;
+}
